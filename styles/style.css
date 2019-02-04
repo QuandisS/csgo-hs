@@ -48,6 +48,10 @@ ul {
   margin: 0 auto;
 }
 
+#test-sites {
+  list-style: circle; 
+}
+
 .Navigation ul {
   display: -webkit-flex; 
   display: flex;
