@@ -48,6 +48,23 @@ ul {
   margin: 0 auto;
 }
 
+button {
+  color: rgb(0, 162, 255);
+  background: #e3f3ff;
+  padding: 5px;
+  border-radius: 2px;
+  border: 2px solid rgb(0, 162, 255);
+  margin: 5px;
+}
+button:hover {
+  background: rgb(0, 162, 255);
+  color: #e3f3ff;
+}
+button:active {
+  background: rgb(0, 72, 114);
+  color: #e3f3ff;
+}
+
 #test-sites {
   list-style: circle; 
 }
