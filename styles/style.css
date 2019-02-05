@@ -83,5 +83,7 @@ button:active {
   color: #223949;
   border-right: 1px solid #e3f3ff;
   background: #e3f3ff;
+  transition: 0.2s;
 }
 .Navigation a:hover {background: #9dd5ff}
+.Navigation a:active {background: #669bc4}
