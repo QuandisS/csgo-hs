@@ -21,19 +21,21 @@
           </ul>
       </nav>
 
-    <form name="Calc">
-        <input type="number" name="first" placeholder="First num"/>
+    <form id="Calc">
+      <fieldset>
+        <legend>Cacl</legend>
+        <input type="number" id="num1" name="first" placeholder="First num" required/>
         +
-        <input type="number" name="second" placeholder="Second num"/>
+        <input type="number" id="num2" name="second" placeholder="Second num" required/>
         =
-        <output>Result</output>
-        
+        <output id="calc-result">Result</output>
+        <br><button type="submit">Calc!</button>
+      </fieldset>  
     </form>
 
-    <button>Calc!</button>
-        <footer>
-          <a href="https://github.com/QuandisS/csgo-hs" target="_blank">GitHub</a>
-        </footer>
-        <script src="../scripts/test-scripts/calc.js"></script>
+    <footer>
+      <a href="https://github.com/QuandisS/csgo-hs" target="_blank">GitHub</a>
+    </footer>
+    <script src="../scripts/test-scripts/calc.js"></script>
   </body>
 </html>
