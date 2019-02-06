@@ -48,7 +48,7 @@ ul {
   margin: 0 auto;
 }
 
-button {
+.calcform button {
   color: rgb(0, 162, 255);
   background: #e3f3ff;
   padding: 5px;
@@ -58,19 +58,32 @@ button {
   margin-left: 0px;
   transition: 0.2s;
 }
-button:hover {
+.calcform button:hover {
   background: rgb(0, 162, 255);
   color: #e3f3ff;
 }
-button:active {
+.calcform button:active {
   background: rgb(0, 72, 114);
   color: #e3f3ff;
 }
+.calcform output,
+.calcform legend {
+  font-size: 1.5em;
+}
+
 
 input {
   border: 2px solid rgb(0, 162, 255);
   border-radius: 5px;
+  font-size: 1.5em;
 }
+
+select {
+  border: 2px solid rgb(0, 162, 255);
+  border-radius: 5px;
+  font-size: 1.5em;
+}
+
 
 fieldset {
   border: 2px solid rgb(0, 162, 255);

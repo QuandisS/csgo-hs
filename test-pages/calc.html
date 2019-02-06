@@ -21,11 +21,15 @@
           </ul>
       </nav>
 
-    <form id="Calc">
+    <form id="Calc" class="calcform">
       <fieldset>  
         <legend>Calc</legend>
         <input type="number" id="num1" name="first" placeholder="First num" required/>
-        +
+        <select id="operation" required>
+          <option disabled>Select operation</option>
+          <option value="+"> + </option>
+          <option value="-"> - </option>
+        </select>
         <input type="number" id="num2" name="second" placeholder="Second num" required/>
         =
         <output id="calc-result">Result</output>
